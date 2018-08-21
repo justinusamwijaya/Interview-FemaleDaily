@@ -1,0 +1,19 @@
+.borderFix{
+    border:1px black solid !important;
+    border-radius:5px !important;
+}
+.postPanel{
+    min-height:50px; 
+    padding: 25px;
+}
+.postHeader{
+    background-color:rgba(0,0,0,0) !important;
+}
+.postBody{
+    min-height:100px;
+    padding:50px;
+}
+#postContainer{
+    padding:30px; 
+    margin-top: 90px;
+}

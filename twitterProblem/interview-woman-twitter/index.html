@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-default col-xs-12">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">@Fox2018Super twitter Timeline</a>
+            </div>
+            <div class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input id='tweetSearch' type="text" class="form-control borderFix" placeholder="Search">
+                </div>
+                    <button id='tweetSearchsubmit' type="submit" class="btn btn-default borderFix">Submit</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class = "col-xs-12" style='text-align:center' >
+        post your tweet 
+            <select class='borderFix' id="selectAction">
+                <option value="newTweet">new Tweet</option>
+                <option value="retweet">retweet from</option>
+            </select>
+            <input id='tweetPost' class='borderFix' type="text">
+            <button id='tweetPostSubmit' class='borderFix' type="submit">post</button>
+    </div>
+    <div class = 'col-xs-offset-2 col-xs-8 panel panel-default borderFix' id = 'postContainer'>
+    </div>
+    
+    <script src='scripts.js'></script>
+    <script>
+        getAllTweets()
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
